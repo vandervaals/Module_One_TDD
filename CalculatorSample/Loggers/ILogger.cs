@@ -1,4 +1,4 @@
-﻿namespace CalculatorSample.Logic
+﻿namespace Loggers
 {
     public interface ILogger
     {

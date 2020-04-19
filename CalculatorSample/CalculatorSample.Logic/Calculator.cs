@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Loggers;
+using System;
 
 namespace CalculatorSample.Logic
 {

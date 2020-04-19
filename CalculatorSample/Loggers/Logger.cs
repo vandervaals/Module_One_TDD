@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace CalculatorSample.Logic
+namespace Loggers
 {
     public class Logger : ILogger
     {

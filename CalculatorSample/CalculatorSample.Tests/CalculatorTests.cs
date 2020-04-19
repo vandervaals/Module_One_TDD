@@ -1,4 +1,5 @@
 ﻿using CalculatorSample.Logic;
+using Loggers;
 using Moq;
 using NUnit.Framework;
 using System;

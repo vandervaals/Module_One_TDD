@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5B031CA3-0212-4826-953A-11774A48C0BD}</ProjectGuid>
+    <ProjectGuid>{2C6DE870-87B7-4D11-9E09-777AEDFEFF89}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CalculatorSample.Logic</RootNamespace>
-    <AssemblyName>CalculatorSample.Logic</AssemblyName>
+    <RootNamespace>People.Logic</RootNamespace>
+    <AssemblyName>People.Logic</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,7 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculator.cs" />
+    <Compile Include="Emotions\Angry.cs" />
+    <Compile Include="Emotions\Happiness.cs" />
+    <Compile Include="Interfaces\IEmotion.cs" />
+    <Compile Include="NotSOLID\Sadness.cs" />
+    <Compile Include="NotSOLID\SadPeople.cs" />
+    <Compile Include="People.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -51,5 +55,6 @@
       <Name>Loggers</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
